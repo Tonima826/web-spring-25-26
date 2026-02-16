@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>University Admission Form</title>
+
+</head>
+
+<body>
+
+    <h2>University Online Admission Form</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+
+        <!-- Personal Information Section -->
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label><br>
+
+            <input type="text" id="fullname" name="fullname" maxlength="50" required><br><br>
+
+            <label for="email">Email:</label><br>
+
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+
+            <input type="radio" id="male" name="gender" value="Male" required>
+
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="Other">
+
+            <label for="other">Other</label><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+
+            <input type="date" id="dob" name="dob" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Academic Information Section -->
+
+        <fieldset>
+
+            <legend>Academic Information</legend>
+
+            <label for="school">Previous School/College:</label><br>
+
+            <input type="text" id="school" name="school" maxlength="100" required><br><br>
+
+            <label for="gpa">GPA/Grade:</label><br>
+
+            <input type="text" id="gpa" name="gpa" required><br><br>
+
+            <label for="department">Preferred Department:</label><br>
+
+            <select id="department" name="department" required>
+
+                <option value="">--Select Department--</option>
+
+                <option value="CSE">Computer Science & Engineering</option>
+
+                <option value="EEE">Electrical & Electronic Engineering</option>
+
+                <option value="BBA">Business Administration</option>
+
+                <option value="ENG">English</option>
+
+            </select><br><br>
+
+            <label>Areas of Interest:</label><br>
+
+            <input type="checkbox" id="research" name="interest" value="Research">
+
+            <label for="research">Research</label><br>
+
+            <input type="checkbox" id="sports" name="interest" value="Sports">
+
+            <label for="sports">Sports</label><br>
+
+            <input type="checkbox" id="culture" name="interest" value="Cultural Activities">
+
+            <label for="culture">Cultural Activities</label><br><br>
+
+            <label for="document">Upload Transcript/Resume:</label><br>
+
+            <input type="file" id="document" name="document" required><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
